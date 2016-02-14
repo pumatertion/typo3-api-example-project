@@ -2,7 +2,7 @@
 	"name": "bleicker/typo3-api-example",
 	"require": {
 		"typo3/cms": "~7.6",
-		"bleicker/api-example": "~1.0"
+		"bleicker/api-example": "~1.1"
 	},
 	"require-dev": {
 	},
