@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "bleicker/api-example",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker-api-example.git",
-                "reference": "d727429f30526cbdbab04755b771611224550b0c"
+                "reference": "4f9e929ffde5edd10fd74671140e6aa66fefdf6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker-api-example/zipball/d727429f30526cbdbab04755b771611224550b0c",
-                "reference": "d727429f30526cbdbab04755b771611224550b0c",
+                "url": "https://api.github.com/repos/pumatertion/bleicker-api-example/zipball/4f9e929ffde5edd10fd74671140e6aa66fefdf6d",
+                "reference": "4f9e929ffde5edd10fd74671140e6aa66fefdf6d",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "API Base Package",
-            "time": "2016-02-14 21:46:16"
+            "time": "2016-02-14 21:53:43"
         },
         {
             "name": "bleicker/application",
