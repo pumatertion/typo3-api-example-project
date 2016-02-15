@@ -4,29 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b3863285edaf3872b5929ec9e9f26f0f",
-    "content-hash": "65b06fd8258eabc475671280e504001a",
+    "hash": "413517575f6b37dc153ae968ad780eb3",
+    "content-hash": "47b8496753f56ca74ac35b68d5d52487",
     "packages": [
         {
             "name": "bleicker/api-example",
-            "version": "1.1.3",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pumatertion/bleicker-api-example.git",
-                "reference": "4f9e929ffde5edd10fd74671140e6aa66fefdf6d"
+                "reference": "253b7c41c8bbc8968c2e62ebca5b48224d149927"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker-api-example/zipball/4f9e929ffde5edd10fd74671140e6aa66fefdf6d",
-                "reference": "4f9e929ffde5edd10fd74671140e6aa66fefdf6d",
+                "url": "https://api.github.com/repos/pumatertion/bleicker-api-example/zipball/253b7c41c8bbc8968c2e62ebca5b48224d149927",
+                "reference": "253b7c41c8bbc8968c2e62ebca5b48224d149927",
                 "shasum": ""
             },
             "require": {
-                "bleicker/typo3-request-handler": "~1.4",
+                "bleicker/typo3-fastroute-request-handler": "~1.0",
                 "typo3/cms": ">=7.6,<8.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.7"
             },
             "type": "typo3-cms-extension",
             "extra": {
@@ -44,49 +41,24 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "description": "API Base Package",
-            "time": "2016-02-14 21:53:43"
+            "description": "Controller Routing Example Package",
+            "time": "2016-02-15 10:51:58"
         },
         {
-            "name": "bleicker/application",
+            "name": "bleicker/fastroute-requesthandler",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pumatertion/bleicker-application.git",
-                "reference": "a54356c3ff9781e0bd36ecdd130f1ecabfb6136c"
+                "url": "https://github.com/pumatertion/bleicker.fastroute-requesthandler.git",
+                "reference": "ce2b9ccef064dc6eb2c1b194e0262e9f0e2722c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/bleicker-application/zipball/a54356c3ff9781e0bd36ecdd130f1ecabfb6136c",
-                "reference": "a54356c3ff9781e0bd36ecdd130f1ecabfb6136c",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Bleicker\\Application\\": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Application Package",
-            "time": "2016-02-14 11:02:05"
-        },
-        {
-            "name": "bleicker/http",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pumatertion/psr-http-requesthandler.git",
-                "reference": "9ee9c29ea41c8b0b3874033b2aa0c0b23c2fcd2d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/psr-http-requesthandler/zipball/9ee9c29ea41c8b0b3874033b2aa0c0b23c2fcd2d",
-                "reference": "9ee9c29ea41c8b0b3874033b2aa0c0b23c2fcd2d",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.fastroute-requesthandler/zipball/ce2b9ccef064dc6eb2c1b194e0262e9f0e2722c5",
+                "reference": "ce2b9ccef064dc6eb2c1b194e0262e9f0e2722c5",
                 "shasum": ""
             },
             "require": {
-                "bleicker/application": "~1.0",
                 "nikic/fast-route": "~0.7",
                 "psr/http-message": "~1.0"
             },
@@ -97,29 +69,29 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Bleicker\\Http\\": "Classes"
+                    "Bleicker\\FastRoute\\RequestHandler\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Handle http requests by configured routes",
-            "time": "2016-02-14 11:49:14"
+            "time": "2016-02-15 10:14:08"
         },
         {
-            "name": "bleicker/typo3-request-handler",
-            "version": "1.4.0",
+            "name": "bleicker/typo3-fastroute-request-handler",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pumatertion/typo3-psr-http-requesthandler.git",
-                "reference": "bd81dc9c4bc1ad73938d105669e6d9dbfa50b5ad"
+                "url": "https://github.com/pumatertion/bleicker.typo3.fastroute-requesthandler.git",
+                "reference": "4891cc4b70eefd01d2fc70ce2a2ab4cf3e6dc52f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pumatertion/typo3-psr-http-requesthandler/zipball/bd81dc9c4bc1ad73938d105669e6d9dbfa50b5ad",
-                "reference": "bd81dc9c4bc1ad73938d105669e6d9dbfa50b5ad",
+                "url": "https://api.github.com/repos/pumatertion/bleicker.typo3.fastroute-requesthandler/zipball/4891cc4b70eefd01d2fc70ce2a2ab4cf3e6dc52f",
+                "reference": "4891cc4b70eefd01d2fc70ce2a2ab4cf3e6dc52f",
                 "shasum": ""
             },
             "require": {
-                "bleicker/http": "~1.5",
+                "bleicker/fastroute-requesthandler": "~1.0",
                 "typo3/cms": ">=7.6,<8.0"
             },
             "require-dev": {
@@ -137,12 +109,12 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Bleicker\\RequestHandler\\": "Classes"
+                    "Bleicker\\TYPO3\\FastRoute\\RequestHandler\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "description": "TYPO3 Request-Handler",
-            "time": "2016-02-14 12:01:11"
+            "description": "TYPO3 Request-Handler using fastroutes",
+            "time": "2016-02-15 10:33:14"
         },
         {
             "name": "cogpowered/finediff",
